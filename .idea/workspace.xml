@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8eb20d-8e12-43a5-9746-2949893bf15f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/array_splitter.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/array_splitter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/type_1/thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/type_1/thread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/type_1/thread_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/type_1/thread_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/multiprocessing_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/type_1/admin_process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/type_1/process.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/type_1/process_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HPC_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HPC_Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/type_2/_run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/type_2/selection_sort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/type_2/thread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/type_2/thread_handler.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/type_1/thread_handler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#2#23#0" expanded="true" />
               </folding>
@@ -40,11 +47,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/array_splitter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -56,23 +59,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/type_1/selection_sort.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/type_1/process_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="399">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <folding>
+                <element signature="e#1#49#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/input_reader.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/type_1/process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding>
-                <element signature="e#1#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/type_1/admin_process.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -117,14 +129,18 @@
         <option value="$PROJECT_DIR$/scripts/type_1/thread_handler.py" />
         <option value="$PROJECT_DIR$/scripts/type_1/thread.py" />
         <option value="$PROJECT_DIR$/scripts/input_reader.py" />
+        <option value="$PROJECT_DIR$/scripts/multiprocessing_test.py" />
+        <option value="$PROJECT_DIR$/scripts/type_1/admin_process.py" />
+        <option value="$PROJECT_DIR$/scripts/type_1/process.py" />
+        <option value="$PROJECT_DIR$/scripts/type_1/process_handler.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="211" />
+    <option name="x" value="-9" />
     <option name="y" value="-9" />
-    <option name="width" value="1369" />
-    <option name="height" value="1089" />
+    <option name="width" value="1855" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,12 +165,6 @@
               <item name="HPC_Project" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="type_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HPC_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HPC_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="type_2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python._run">
+  <component name="RunManager" selected="Python.process_handler">
     <configuration name="_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HPC_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,7 +241,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="random_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="multiprocessing_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HPC_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,11 +249,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/sorting-visualized-master" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/sorting-visualized-master/random_image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/multiprocessing_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="process_handler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HPC_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts/type_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/type_1/process_handler.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,34 +304,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sorting" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="HPC_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/sorting-visualized-master" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/sorting-visualized-master/sorting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.process_handler" />
+        <item itemvalue="Python.multiprocessing_test" />
         <item itemvalue="Python._run" />
         <item itemvalue="Python._main" />
         <item itemvalue="Python.selection_sort" />
-        <item itemvalue="Python.sorting" />
-        <item itemvalue="Python.random_image" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +337,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.47447243" weight="0.30668414" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.63921034" visible="true" weight="0.2982456" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49457258" weight="0.508519" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49457258" weight="0.5074224" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32793522" />
@@ -391,16 +401,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/array_splitter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/type_1/thread_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#2#23#0" expanded="true" />
           </folding>
@@ -417,12 +423,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/Users/Candy/AppData/Local/Programs/Python/Python37/Lib/multiprocessing/spawn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/input_reader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="190">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding>
             <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/multiprocessing_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="725" selection-start-line="725" selection-end-line="725" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="1038" selection-start-line="1038" selection-end-line="1038" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/type_1/admin_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/type_1/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/type_1/process_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="e#1#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
