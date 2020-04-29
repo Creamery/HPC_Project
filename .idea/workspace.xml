@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db8eb20d-8e12-43a5-9746-2949893bf15f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/input_reader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/type_2/_run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/type_2/selection_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/type_2/thread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/type_2/thread_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HPC_Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HPC_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/array_splitter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/type_1/_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/selection_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/type_1/selection_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/type_1/thread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/thread_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/type_1/thread_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/type_1/thread_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/type_1/thread_handler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,15 +30,24 @@
         <entry file="file://$PROJECT_DIR$/scripts/type_1/thread_handler.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#2#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/array_splitter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/type_1/thread.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
@@ -114,10 +115,12 @@
         <option value="$PROJECT_DIR$/scripts/input_reader.py" />
         <option value="$PROJECT_DIR$/scripts/type_1/_run.py" />
         <option value="$PROJECT_DIR$/scripts/type_1/selection_sort.py" />
+        <option value="$PROJECT_DIR$/scripts/type_1/thread_handler.py" />
+        <option value="$PROJECT_DIR$/scripts/array_splitter.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="211" />
     <option name="y" value="-9" />
     <option name="width" value="1369" />
@@ -383,6 +386,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/type_1/selection_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/type_1/thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/type_1/_run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -396,24 +413,17 @@
     <entry file="file://$PROJECT_DIR$/scripts/type_1/thread_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#2#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/type_1/selection_sort.py">
+    <entry file="file://$PROJECT_DIR$/scripts/array_splitter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/type_1/thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
