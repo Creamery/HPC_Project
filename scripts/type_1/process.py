@@ -2,22 +2,14 @@
 import numpy
 
 
-def run1(passable_queue, passable_queue1, param_b):
-    print("passable_queue size : " + str(passable_queue.qsize()))
-    print("passable_queue : " + str(passable_queue.get()))
 
-    print("passable_queue2 : " + str(passable_queue1.get()))
+def run(return_queue, flag_queue, unsorted_array, process_id):
+    print("Process " + str(process_id))
+    unsorted_array = unsorted_array[process_id]
+    print(unsorted_array)
 
-    print("param_b : " + str(param_b))
-    # print("b : " + str(b))
-    print()
-    return int(param_b[0]) + 1
-
-
-def run(name, return_queue, unsorted_array, flag_queue):
     while len(unsorted_array) > 0:
 
-        print(name)
         # print("unsorted array : " + str(unsorted_array))
 
         min_value = float('inf')
