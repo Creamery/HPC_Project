@@ -1,12 +1,12 @@
-from type_1 import thread_handler
+from type_1 import process_handler
 import input_reader
 
-def main():
+if __name__ == '__main__':
 
-    unsorted_array = input_reader.read_csv()
-    thread_handler.run(unsorted_array)
+    unsorted_array = input_reader.read_csv("input_100")
+    process_handler.run(unsorted_array)
 
-main()
+
 
 
 
