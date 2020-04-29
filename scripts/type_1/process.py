@@ -21,7 +21,7 @@ def run(return_queue, flag_queue, unsorted_array, process_id):
                 min_value = item
                 min_index = index
 
-        return_queue.put(min_value)
+        return_queue.put((min_value, process_id))
         # print("index : " + str(min_index))
         # del unsorted_array[min_index]
         unsorted_array = numpy.delete(unsorted_array, min_index)

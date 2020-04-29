@@ -4,9 +4,8 @@ from multiprocessing import Process, Lock, Queue, Pool
 from admin_process import run as admin_run
 from process import run as process_run
 import array_splitter
-
-from itertools import product
 from functools import partial
+
 
 def run(unsorted_array):
     count_process = 4
