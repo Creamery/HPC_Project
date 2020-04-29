@@ -42,14 +42,17 @@ def run(unsorted_array):
 
     passable_queue.put("1")
     passable_queue.put("2")
+    passable_queue.put("3")
 
-    passable_queue2.put("3")
     passable_queue2.put("4")
+    passable_queue2.put("5")
+    passable_queue2.put("6")
 
-    param_b = [1, 2]
+    param_b = [[1, 2, 3, 4], [5, 6, 7, 8, 1, 2, 3, 4, 5, 6, 7], [9, 10, 11, 12]]
     func0 = partial(process_run1, passable_queue)
     func = partial(func0, passable_queue2)
     results = pool.map(func, param_b)
+
     print(results)
     # print(input_list)
     # pool.map(wrapper, input_list)

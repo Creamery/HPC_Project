@@ -11,7 +11,7 @@ def run1(passable_queue, passable_queue1, param_b):
     print("param_b : " + str(param_b))
     # print("b : " + str(b))
     print()
-    return int(param_b) + 1
+    return int(param_b[0]) + 1
 
 
 def run(name, return_queue, unsorted_array, flag_queue):
