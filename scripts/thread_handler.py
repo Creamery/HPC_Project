@@ -9,6 +9,6 @@ def run(unsorted_array):
     threads_num = 2
 
     for i in range(threads_num):
-        t = threading.Thread(target = thread.selection_sort, args = (unsorted_array,))
+        t = threading.Thread(target = thread.sort, args = (unsorted_array,))
         threads.append(t)
         t.start()
