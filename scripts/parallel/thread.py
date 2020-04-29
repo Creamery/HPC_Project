@@ -1,4 +1,4 @@
-from type_1 import selection_sort
+from serial import selection_sort
 
 
 def sort(unsorted_array, thread_name = "Thread"):

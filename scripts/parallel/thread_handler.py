@@ -1,6 +1,6 @@
 
 import array_splitter
-from type_1 import thread
+from parallel import thread
 import threading
 
 def run(unsorted_array):
