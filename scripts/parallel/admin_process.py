@@ -1,8 +1,7 @@
 
 import time
-from numba import jit, cuda
 
-@jit(target = "cuda")
+
 def run(value_queue, flag_queue, return_queue, process_count):
     start_time = time.clock()
 
@@ -36,6 +35,7 @@ def run(value_queue, flag_queue, return_queue, process_count):
 
     end_time = time.clock()
     total_time = end_time - start_time
+
     return_queue.put(total_time)
     return_queue.put(sorted_array)
 

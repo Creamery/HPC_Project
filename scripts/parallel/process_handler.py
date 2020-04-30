@@ -5,10 +5,12 @@ from admin_process import run as admin_run
 from process import run as process_run
 import array_splitter
 from functools import partial
+from numba import jit
 
 
+@jit(forceobj = True)
 def run(unsorted_array):
-    count_process = 4
+    count_process = 8
 
     pool = Pool(processes = count_process)
 

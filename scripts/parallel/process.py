@@ -1,8 +1,7 @@
 
 import numpy
-from numba import jit, cuda
 
-@jit(target = "cuda")
+
 def run(value_queue, flag_queue, unsorted_array, process_id):
     # print("Process " + str(process_id))
     unsorted_array = unsorted_array[process_id]
