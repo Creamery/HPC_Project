@@ -5,7 +5,7 @@ import input_reader
 
 if __name__ == '__main__':
 
-    csv_array = input_reader.read_csv("input_100000")
+    csv_array = input_reader.read_csv("input_500000")
     run_count = 3
 
     print("Parallel Selection Sort")
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     average_time = 0
     for i in range(run_count):
         unsorted_array = csv_array.copy()
-        elapsed_time, sorted_array = parallel_run.run(unsorted_array)
+        elapsed_time, sorted_array = serial_run.run(unsorted_array)
 
         print("Elapsed Time : " + str(elapsed_time))
         average_time = average_time + elapsed_time

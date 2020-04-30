@@ -2,7 +2,9 @@
 # Sort
 
 import time
+from numba import jit, cuda
 
+@jit(target = "cuda")
 def sort_array(unsorted_array):
     start_time = time.clock()
 

@@ -1,5 +1,8 @@
-import time
 
+import time
+from numba import jit, cuda
+
+@jit(target = "cuda")
 def run(value_queue, flag_queue, return_queue, process_count):
     start_time = time.clock()
 
