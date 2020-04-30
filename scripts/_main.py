@@ -5,8 +5,8 @@ import input_reader
 
 if __name__ == '__main__':
 
-    csv_array = input_reader.read_csv("input_200000")
-    run_count = 1
+    csv_array = input_reader.read_csv("input_1000")
+    run_count = 3
 
     # print(csv_array)
     print("Parallel Selection Sort")

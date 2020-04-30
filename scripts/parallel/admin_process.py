@@ -5,15 +5,12 @@ import time
 def run(value_queue, flag_queue, return_queue, process_count):
     start_time = time.clock()
 
-
     sorted_array = []
 
     while not flag_queue.empty():
         while not value_queue.empty():
             tuple = value_queue.get()
             value = tuple[0]
-            # process_id = tuple[1]
-            # print(str(value) + " from p " + str(process_id))
 
             if len(sorted_array) == 0:
                 sorted_array.append(value)
