@@ -1,8 +1,11 @@
 # Python program for implementation of Selection
 # Sort
 
+import time
 
 def sort_array(unsorted_array):
+    start_time = time.clock()
+
     sorted_array = unsorted_array.copy()
     ua_len = len(sorted_array)
     # Traverse through all array elements
@@ -20,5 +23,8 @@ def sort_array(unsorted_array):
         sorted_array[i], sorted_array[min_idx] = sorted_array[min_idx], sorted_array[i]
 
 
-    return sorted_array
+    end_time = time.clock()
+    total_time = end_time - start_time
+
+    return total_time, sorted_array
 

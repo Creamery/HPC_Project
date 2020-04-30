@@ -1,17 +1,17 @@
+import time
 
+def run(value_queue, flag_queue, return_queue, process_count):
+    start_time = time.clock()
 
-def run(return_queue, flag_queue, process_count):
-    print("admin flag queue : " + str(flag_queue.qsize()))
 
     sorted_array = []
 
     while not flag_queue.empty():
-        while not return_queue.empty():
-            # print("admin qsize " + str(return_queue.qsize()))
-            tuple = return_queue.get()
+        while not value_queue.empty():
+            tuple = value_queue.get()
             value = tuple[0]
-            process_id = tuple[1]
-            print(str(value) + " from p " + str(process_id))
+            # process_id = tuple[1]
+            # print(str(value) + " from p " + str(process_id))
 
             if len(sorted_array) == 0:
                 sorted_array.append(value)
@@ -25,10 +25,15 @@ def run(return_queue, flag_queue, process_count):
 
                 pointer_index = pointer_index + 1
 
-                print("ptr val : " + str(pointer_value))
+                # print("ptr val : " + str(pointer_value))
                 sorted_array.insert(pointer_index, value)
-                print("sorted array contents : ")
-                print(sorted_array)
-                print()
+                # print("sorted array contents : ")
+                # print(sorted_array)
+                # print()
 
-    print(sorted_array)
+    end_time = time.clock()
+    total_time = end_time - start_time
+    return_queue.put(total_time)
+    return_queue.put(sorted_array)
+
+

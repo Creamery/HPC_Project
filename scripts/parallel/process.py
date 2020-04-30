@@ -3,10 +3,10 @@ import numpy
 
 
 
-def run(return_queue, flag_queue, unsorted_array, process_id):
-    print("Process " + str(process_id))
+def run(value_queue, flag_queue, unsorted_array, process_id):
+    # print("Process " + str(process_id))
     unsorted_array = unsorted_array[process_id]
-    print(unsorted_array)
+    # print(unsorted_array)
 
     while len(unsorted_array) > 0:
 
@@ -21,7 +21,7 @@ def run(return_queue, flag_queue, unsorted_array, process_id):
                 min_value = item
                 min_index = index
 
-        return_queue.put((min_value, process_id))
+        value_queue.put((min_value, process_id))
         # print("index : " + str(min_index))
         # del unsorted_array[min_index]
         unsorted_array = numpy.delete(unsorted_array, min_index)
